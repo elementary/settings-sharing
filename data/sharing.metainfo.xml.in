@@ -12,17 +12,17 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-sharing/8.0.0/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-sharing/8.0.0/data/screenshot.png</image>
     </screenshot>
   </screenshots>
 
   <content_rating type="oars-1.1" />
 
   <url type="homepage">https://elementary.io/</url>
-  <url type="bugtracker">https://github.com/elementary/switchboard-plug-sharing/issues</url>
+  <url type="bugtracker">https://github.com/elementary/settings-sharing/issues</url>
   <url type="donation">https://elementary.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/switchboard-plug-sharing/discussions</url>
-  <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
+  <url type="help">https://github.com/elementary/settings-sharing/discussions</url>
+  <url type="translate">https://l10n.elementary.io/engage/settings/</url>
 
   <developer id="org.elementaryos">
     <name>elementary, Inc.</name>
@@ -38,7 +38,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-sharing/issues/91">No titlebar buttons when no network connection is available</issue>
+        <issue url="https://github.com/elementary/settings-sharing/issues/91">No titlebar buttons when no network connection is available</issue>
       </issues>
     </release>
 
@@ -59,7 +59,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-sharing/issues/26">Mention DLNA somewhere</issue>
+        <issue url="https://github.com/elementary/settings-sharing/issues/26">Mention DLNA somewhere</issue>
       </issues>
     </release>
 
