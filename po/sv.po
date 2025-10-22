@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 14:56+0000\n"
-"PO-Revision-Date: 2022-12-12 11:39+0000\n"
-"Last-Translator: Fredrik B <frbo9002@gmail.com>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-sharing/sv/>\n"
+"PO-Revision-Date: 2025-10-22 09:07+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
+"sharing/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2016-07-24 05:41+0000\n"
 
 #: src/Plug.vala:17
@@ -26,7 +26,7 @@ msgstr "Delning"
 
 #: src/Plug.vala:18
 msgid "Configure file and media sharing"
-msgstr "Ställ in fil- och mediadelning"
+msgstr "Konfigurera fil- och mediadelning"
 
 #: src/Plug.vala:26
 msgid "Network Is Not Available"
@@ -43,11 +43,11 @@ msgstr "Nätverksinställningar…"
 
 #: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "Mediaströmning"
 
 #: src/Plug.vala:110
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA och UPnP"
 
 #: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
 msgid "Bluetooth"
@@ -55,39 +55,36 @@ msgstr "Bluetooth"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
-msgstr ""
+msgstr "Musikmapp"
 
 #: src/Widgets/DLNAPage.vala:23
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "Videor"
+msgstr "Videomapp"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Bildmapp"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
+"De valda biblioteken är tillgängliga för streaming på kompatibla DLNA-"
+"aktiverade enheter i ditt lokala nätverk, t.ex. TV-apparater och "
+"spelkonsoler."
 
 #: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
 msgid "Enabled"
 msgstr "Aktiverad"
 
 #: src/Widgets/DLNAPage.vala:52
-#, fuzzy
-#| msgid ""
-#| "While disabled, the selected media libraries are unshared, and it won't "
-#| "stream files from your computer to other devices."
 msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
 msgstr ""
-"När inaktiverat delas inte längre de valda mediabiblioteken och det går inte "
-"att strömma filer från din dator till andra enheter."
+"Mediebiblioteken är för närvarande inte delade och kan inte strömmas till "
+"andra enheter."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
 msgid "Disabled"
@@ -95,41 +92,32 @@ msgstr "Inaktiverad"
 
 #: src/Widgets/DLNAPage.vala:117
 msgid "Select"
-msgstr ""
+msgstr "Välj"
 
 #: src/Widgets/BluetoothPage.vala:23
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Fråga innan du tar emot filer:"
 
 #: src/Widgets/BluetoothPage.vala:34
-#, fuzzy
-#| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
 msgstr "Bluetooth-inställningar…"
 
 #: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
 msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr "När aktiverat kan Bluetooth-enheter skicka filer till Hämtningar."
+msgstr "När den är aktiverad kan Bluetooth-enheter skicka filer till Downloads."
 
 #: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
 msgstr ""
-"När inaktiverat kan Bluetooth-enheter inte skicka filer till Hämtningar."
+"När den är inaktiverad kan Bluetooth-enheter inte skicka filer till "
+"Downloads."
 
 #: src/Widgets/BluetoothPage.vala:70
-#, fuzzy
-#| msgid ""
-#| "The bluetooth device is either disconnected or disabled. Check bluetooth "
-#| "settings and try again."
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
 msgstr ""
-"Bluetooth-enheten är antingen avstängd eller inte ansluten. Kontrollera "
+"Bluetooth-enheten är antingen frånkopplad eller inaktiverad. Kontrollera "
 "Bluetooth-inställningarna och försök igen."
 
 #: src/Widgets/BluetoothPage.vala:72
