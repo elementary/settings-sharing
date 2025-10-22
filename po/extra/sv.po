@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 14:56+0000\n"
-"PO-Revision-Date: 2025-10-22 09:07+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "sharing-extra/sv/>\n"
@@ -21,7 +21,7 @@ msgstr ""
 
 #: data/sharing.metainfo.xml.in:10
 msgid "Sharing Settings"
-msgstr ""
+msgstr "Delningsinställningar"
 
 #: data/sharing.metainfo.xml.in:11
 msgid "Configure file and media sharing"
@@ -43,4 +43,4 @@ msgstr "Sidofältets position är nu ihågkommen"
 
 #: data/sharing.metainfo.xml.in:57
 msgid "Bluetooth sharing options"
-msgstr ""
+msgstr "Alternativ för Bluetooth-delning"
