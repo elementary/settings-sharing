@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 14:56+0000\n"
-"PO-Revision-Date: 2025-10-22 05:26+0000\n"
+"PO-Revision-Date: 2025-10-22 09:07+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "sharing-extra/sv/>\n"
@@ -25,7 +25,7 @@ msgstr ""
 
 #: data/sharing.metainfo.xml.in:11
 msgid "Configure file and media sharing"
-msgstr "Ställ in fil- och mediadelning"
+msgstr "Konfigurera fil- och mediadelning"
 
 #: data/sharing.metainfo.xml.in:28
 msgid "elementary, Inc."
