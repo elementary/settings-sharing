@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-06-09 14:56+0000\n"
-"PO-Revision-Date: 2025-10-22 09:07+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "sharing/sv/>\n"
@@ -35,7 +35,7 @@ msgstr "Nätverket är inte tillgängligt"
 #: src/Plug.vala:29
 msgid ""
 "While disconnected from the network, sharing services are not available."
-msgstr "När frånkopplad från nätverket är delningstjänster inte tillgängliga."
+msgstr "När frånkopplad från nätverket är delningstjänsterna inte tillgängliga."
 
 #: src/Plug.vala:35
 msgid "Network settings…"
@@ -70,7 +70,7 @@ msgid ""
 "The selected libraries are available to stream on compatible DLNA-enabled "
 "devices on your local network such as TVs and game consoles."
 msgstr ""
-"De valda biblioteken är tillgängliga för streaming på kompatibla DLNA-"
+"De valda biblioteken är tillgängliga för strömning på kompatibla DLNA-"
 "aktiverade enheter i ditt lokala nätverk, t.ex. TV-apparater och "
 "spelkonsoler."
 
@@ -83,7 +83,7 @@ msgid ""
 "Media libraries are currently unshared and can't be streamed to other "
 "devices."
 msgstr ""
-"Mediebiblioteken är för närvarande inte delade och kan inte strömmas till "
+"Mediebiblioteken är för närvarande inte utdelade och kan inte strömmas till "
 "andra enheter."
 
 #: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
@@ -96,7 +96,7 @@ msgstr "Välj"
 
 #: src/Widgets/BluetoothPage.vala:23
 msgid "Ask before accepting files:"
-msgstr "Fråga innan du tar emot filer:"
+msgstr "Fråga innan filer accepteras:"
 
 #: src/Widgets/BluetoothPage.vala:34
 msgid "Bluetooth Settings…"
@@ -104,13 +104,14 @@ msgstr "Bluetooth-inställningar…"
 
 #: src/Widgets/BluetoothPage.vala:61
 msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr "När den är aktiverad kan Bluetooth-enheter skicka filer till Downloads."
+msgstr ""
+"När den är aktiverad kan Bluetooth-enheter skicka filer till Hämtningar."
 
 #: src/Widgets/BluetoothPage.vala:65
 msgid "While disabled, Bluetooth devices can not send files to Downloads."
 msgstr ""
 "När den är inaktiverad kan Bluetooth-enheter inte skicka filer till "
-"Downloads."
+"Hämtningar."
 
 #: src/Widgets/BluetoothPage.vala:70
 msgid ""
