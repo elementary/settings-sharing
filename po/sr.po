@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 14:56+0000\n"
+"POT-Creation-Date: 2026-01-31 11:17+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: Мирослав Николић <miroslavnikolic@rocketmail.com>\n"
 "Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "DLNA and UPnP"
 msgstr ""
 
-#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Блутут"
 
@@ -73,7 +73,7 @@ msgid ""
 "devices on your local network such as TVs and game consoles."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:66
 msgid "Enabled"
 msgstr "Укључен"
 
@@ -89,7 +89,7 @@ msgstr ""
 "Када је искључено, изабране медијске библиотеке се не деле, и неће слати "
 "датотеке са вашег рачунара на друге уређаје."
 
-#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:70
 msgid "Disabled"
 msgstr "Искључен"
 
@@ -97,33 +97,17 @@ msgstr "Искључен"
 msgid "Select"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:23
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:34
+#: src/Widgets/BluetoothPage.vala:33
 #, fuzzy
 #| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
 msgstr "Подешавања блутута…"
 
-#: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
-msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr ""
-"Када је укључено, блутут уређаји могу да шаљу датотеке у фасциклу "
-"„Преузимања“."
-
-#: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr ""
-"Када је искључено, блутут уређаји не могу да шаљу датотеке у фасциклу "
-"„Преузимања“."
-
-#: src/Widgets/BluetoothPage.vala:70
+#: src/Widgets/BluetoothPage.vala:57
 #, fuzzy
 #| msgid ""
 #| "The bluetooth device is either disconnected or disabled. Check bluetooth "
@@ -135,9 +119,25 @@ msgstr ""
 "Или је прекинута веза са блутут уређајем или је искључен. Проверите "
 "подешавања блутута и покушајте поново."
 
-#: src/Widgets/BluetoothPage.vala:72
+#: src/Widgets/BluetoothPage.vala:59
 msgid "Not Available"
 msgstr "Није доступан"
+
+#: src/Widgets/BluetoothPage.vala:65
+#, fuzzy
+#| msgid "While enabled, bluetooth devices can send files to Downloads."
+msgid "While enabled, Bluetooth devices can send files to Downloads."
+msgstr ""
+"Када је укључено, блутут уређаји могу да шаљу датотеке у фасциклу "
+"„Преузимања“."
+
+#: src/Widgets/BluetoothPage.vala:69
+#, fuzzy
+#| msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgid "While disabled, Bluetooth devices can not send files to Downloads."
+msgstr ""
+"Када је искључено, блутут уређаји не могу да шаљу датотеке у фасциклу "
+"„Преузимања“."
 
 #~ msgid "Media library"
 #~ msgstr "Медијска библиотека"

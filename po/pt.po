@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 14:56+0000\n"
+"POT-Creation-Date: 2026-01-31 11:17+0000\n"
 "PO-Revision-Date: 2024-11-28 12:16+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementary.io/projects/switchboard/"
@@ -51,7 +51,7 @@ msgstr "Transmissão de multimédia"
 msgid "DLNA and UPnP"
 msgstr "DLNA e UPnP"
 
-#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "Bluetooth"
 
@@ -76,7 +76,7 @@ msgstr ""
 "dispositivos compatíveis com DLNA na sua rede local, como televisões e "
 "consolas de jogos."
 
-#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:66
 msgid "Enabled"
 msgstr "Ativo"
 
@@ -88,7 +88,7 @@ msgstr ""
 "Atualmente, as bibliotecas multimédia não são partilhadas e não podem ser "
 "transmitidas para outros dispositivos."
 
-#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:70
 msgid "Disabled"
 msgstr "Desativado"
 
@@ -96,27 +96,15 @@ msgstr "Desativado"
 msgid "Select"
 msgstr "Selecionar"
 
-#: src/Widgets/BluetoothPage.vala:23
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr "Perguntar antes de aceitar ficheiros:"
 
-#: src/Widgets/BluetoothPage.vala:34
+#: src/Widgets/BluetoothPage.vala:33
 msgid "Bluetooth Settings…"
 msgstr "Definições Bluetooth…"
 
-#: src/Widgets/BluetoothPage.vala:61
-msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr ""
-"Quando ativo, permite o envio de ficheiros a partir dos dispositivos "
-"Bluetooth para as Transferências."
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr ""
-"Quando inativo, não permite o envio de ficheiros a partir dos dispositivos "
-"Bluetooth para as Transferências."
-
-#: src/Widgets/BluetoothPage.vala:70
+#: src/Widgets/BluetoothPage.vala:57
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
@@ -124,9 +112,21 @@ msgstr ""
 "O dispositivo Bluetooth está desligado ou a partilha inativa. Verifique as "
 "definições de Bluetooth e tente de novo."
 
-#: src/Widgets/BluetoothPage.vala:72
+#: src/Widgets/BluetoothPage.vala:59
 msgid "Not Available"
 msgstr "Não Disponível"
+
+#: src/Widgets/BluetoothPage.vala:65
+msgid "While enabled, Bluetooth devices can send files to Downloads."
+msgstr ""
+"Quando ativo, permite o envio de ficheiros a partir dos dispositivos "
+"Bluetooth para as Transferências."
+
+#: src/Widgets/BluetoothPage.vala:69
+msgid "While disabled, Bluetooth devices can not send files to Downloads."
+msgstr ""
+"Quando inativo, não permite o envio de ficheiros a partir dos dispositivos "
+"Bluetooth para as Transferências."
 
 #, c-format
 #~ msgid "Select %s…"

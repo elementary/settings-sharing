@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 14:56+0000\n"
+"POT-Creation-Date: 2026-01-31 11:17+0000\n"
 "PO-Revision-Date: 2022-12-12 11:38+0000\n"
 "Last-Translator: Jung-Kyu Park <bagjunggyu@gmail.com>\n"
 "Language-Team: Korean <https://l10n.elementary.io/projects/switchboard/"
@@ -49,7 +49,7 @@ msgstr ""
 msgid "DLNA and UPnP"
 msgstr ""
 
-#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr "블루투스"
 
@@ -73,7 +73,7 @@ msgid ""
 "devices on your local network such as TVs and game consoles."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:66
 msgid "Enabled"
 msgstr "사용함"
 
@@ -89,7 +89,7 @@ msgstr ""
 "사용하지 않을 땐, 선택한 미디어 라이브러리들이 공유되지 않으며, 여러분의 컴퓨"
 "터에서 다른 장비로의 스트리밍도 안 하게 됩니다."
 
-#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:70
 msgid "Disabled"
 msgstr "사용 안 함"
 
@@ -97,30 +97,17 @@ msgstr "사용 안 함"
 msgid "Select"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:23
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:34
+#: src/Widgets/BluetoothPage.vala:33
 #, fuzzy
 #| msgid "Bluetooth settings…"
 msgid "Bluetooth Settings…"
 msgstr "블루투스 설정…"
 
-#: src/Widgets/BluetoothPage.vala:61
-#, fuzzy
-#| msgid "While enabled, bluetooth devices can send files to Downloads."
-msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr "사용할 땐, 블루투스 장비에서 다운로드 폴더로 파일을 보낼 수 있습니다."
-
-#: src/Widgets/BluetoothPage.vala:65
-#, fuzzy
-#| msgid "While disabled, bluetooth devices can not send files to Downloads."
-msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr ""
-"사용하지 않을 땐, 블루투스 장비에서 다운로드 폴더로 파일을 보낼 수 없습니다."
-
-#: src/Widgets/BluetoothPage.vala:70
+#: src/Widgets/BluetoothPage.vala:57
 #, fuzzy
 #| msgid ""
 #| "The bluetooth device is either disconnected or disabled. Check bluetooth "
@@ -132,9 +119,22 @@ msgstr ""
 "블루투스 장비와 연결이 끊어졌거나 사용 안 함 상태입니다. 블루투스 설정을 확인"
 "하시고 다시 해보세요."
 
-#: src/Widgets/BluetoothPage.vala:72
+#: src/Widgets/BluetoothPage.vala:59
 msgid "Not Available"
 msgstr "사용 안 함"
+
+#: src/Widgets/BluetoothPage.vala:65
+#, fuzzy
+#| msgid "While enabled, bluetooth devices can send files to Downloads."
+msgid "While enabled, Bluetooth devices can send files to Downloads."
+msgstr "사용할 땐, 블루투스 장비에서 다운로드 폴더로 파일을 보낼 수 있습니다."
+
+#: src/Widgets/BluetoothPage.vala:69
+#, fuzzy
+#| msgid "While disabled, bluetooth devices can not send files to Downloads."
+msgid "While disabled, Bluetooth devices can not send files to Downloads."
+msgstr ""
+"사용하지 않을 땐, 블루투스 장비에서 다운로드 폴더로 파일을 보낼 수 없습니다."
 
 #~ msgid "Media library"
 #~ msgstr "미디어 라이브러리"

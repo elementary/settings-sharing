@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sharing-plug\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 14:56+0000\n"
+"POT-Creation-Date: 2026-01-31 11:17+0000\n"
 "PO-Revision-Date: 2022-12-12 11:39+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Avaric <https://l10n.elementary.io/projects/switchboard/"
@@ -48,7 +48,7 @@ msgstr ""
 msgid "DLNA and UPnP"
 msgstr ""
 
-#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:15
+#: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
 msgstr ""
 
@@ -70,7 +70,7 @@ msgid ""
 "devices on your local network such as TVs and game consoles."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:62
+#: src/Widgets/DLNAPage.vala:49 src/Widgets/BluetoothPage.vala:66
 msgid "Enabled"
 msgstr ""
 
@@ -80,7 +80,7 @@ msgid ""
 "devices."
 msgstr ""
 
-#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:66
+#: src/Widgets/DLNAPage.vala:53 src/Widgets/BluetoothPage.vala:70
 msgid "Disabled"
 msgstr ""
 
@@ -88,28 +88,28 @@ msgstr ""
 msgid "Select"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:23
+#: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:34
+#: src/Widgets/BluetoothPage.vala:33
 msgid "Bluetooth Settings…"
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:61
-msgid "While enabled, Bluetooth devices can send files to Downloads."
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:65
-msgid "While disabled, Bluetooth devices can not send files to Downloads."
-msgstr ""
-
-#: src/Widgets/BluetoothPage.vala:70
+#: src/Widgets/BluetoothPage.vala:57
 msgid ""
 "The Bluetooth device is either disconnected or disabled. Check Bluetooth "
 "settings and try again."
 msgstr ""
 
-#: src/Widgets/BluetoothPage.vala:72
+#: src/Widgets/BluetoothPage.vala:59
 msgid "Not Available"
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:65
+msgid "While enabled, Bluetooth devices can send files to Downloads."
+msgstr ""
+
+#: src/Widgets/BluetoothPage.vala:69
+msgid "While disabled, Bluetooth devices can not send files to Downloads."
 msgstr ""
