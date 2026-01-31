@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-09 14:56+0000\n"
+"POT-Creation-Date: 2026-01-31 11:17+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
@@ -31,16 +31,17 @@ msgstr "הגדרת שיתוף קבצים ומדיה"
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 
-#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:49
-#: data/sharing.metainfo.xml.in:58 data/sharing.metainfo.xml.in:69
-#: data/sharing.metainfo.xml.in:77 data/sharing.metainfo.xml.in:85
+#: data/sharing.metainfo.xml.in:37 data/sharing.metainfo.xml.in:48
+#: data/sharing.metainfo.xml.in:60 data/sharing.metainfo.xml.in:69
+#: data/sharing.metainfo.xml.in:80 data/sharing.metainfo.xml.in:88
+#: data/sharing.metainfo.xml.in:96
 msgid "Updated translations"
 msgstr "תרגומים עודכנו"
 
-#: data/sharing.metainfo.xml.in:48
+#: data/sharing.metainfo.xml.in:59
 msgid "Sidebar position is now remembered"
 msgstr "מקום סרגל הצד נשמר מעתה"
 
-#: data/sharing.metainfo.xml.in:57
+#: data/sharing.metainfo.xml.in:68
 msgid "Bluetooth sharing options"
 msgstr "אפשרויות שיתוף בלוטות׳"
