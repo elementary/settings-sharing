@@ -5,7 +5,6 @@
 
 public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
     private GLib.Settings daemon_settings;
-    private GLib.Settings panel_settings;
 
     public BluetoothPage () {
         Object (activatable: true);
@@ -37,11 +36,9 @@ public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
         daemon_settings.bind ("sharing", status_switch, "active", NO_SENSITIVITY);
         daemon_settings.bind ("confirm-accept-files", accept_switch, "active", DEFAULT);
 
-        panel_settings = new GLib.Settings ("io.elementary.desktop.wingpanel.bluetooth");
-
         set_service_state ();
 
-        panel_settings.changed ["bluetooth-enabled"].connect (() => {
+        daemon_settings.changed ["enabled"].connect (() => {
             set_service_state ();
         });
 
@@ -56,20 +53,22 @@ public class Sharing.Widgets.BluetoothPage : Switchboard.SettingsPage {
     }
 
     private void set_service_state () {
-        if (panel_settings.get_boolean ("bluetooth-enabled")) {
-            if (daemon_settings.get_boolean ("sharing")) {
-                description = _("While enabled, Bluetooth devices can send files to Downloads.");
-                status = _("Enabled");
-                status_type = SUCCESS;
-            } else {
-                description = _("While disabled, Bluetooth devices can not send files to Downloads.");
-                status = _("Disabled");
-                status_type = OFFLINE;
-            }
-        } else {
+        if (!daemon_settings.get_boolean ("enabled")) {
             description = _("The Bluetooth device is either disconnected or disabled. Check Bluetooth settings and try again.");
             status_type = ERROR;
             status = _("Not Available");
+
+            return;
+        }
+
+        if (daemon_settings.get_boolean ("sharing")) {
+            description = _("While enabled, Bluetooth devices can send files to Downloads.");
+            status = _("Enabled");
+            status_type = SUCCESS;
+        } else {
+            description = _("While disabled, Bluetooth devices can not send files to Downloads.");
+            status = _("Disabled");
+            status_type = OFFLINE;
         }
     }
 }
