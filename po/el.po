@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 11:17+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-10 14:00+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "sharing/el/>\n"
@@ -45,11 +45,11 @@ msgstr "Ρυθμίσεις δικτύου…"
 
 #: src/Plug.vala:109 src/Widgets/DLNAPage.vala:15
 msgid "Media Streaming"
-msgstr ""
+msgstr "Μετάδοση πολυμέσων"
 
 #: src/Plug.vala:110
 msgid "DLNA and UPnP"
-msgstr ""
+msgstr "DLNA και UPnP"
 
 #: src/Plug.vala:111 src/Widgets/BluetoothPage.vala:14
 msgid "Bluetooth"
@@ -57,7 +57,7 @@ msgstr "Bluetooth"
 
 #: src/Widgets/DLNAPage.vala:22
 msgid "Music Folder"
-msgstr ""
+msgstr "Φάκελος μουσικής"
 
 #: src/Widgets/DLNAPage.vala:23
 #, fuzzy
@@ -67,7 +67,7 @@ msgstr "Βίντεο"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
-msgstr ""
+msgstr "Φάκελος εικόνων"
 
 #: src/Widgets/DLNAPage.vala:48
 msgid ""
@@ -98,7 +98,7 @@ msgstr "Απενεργοποιημένο"
 
 #: src/Widgets/DLNAPage.vala:117
 msgid "Select"
-msgstr ""
+msgstr "Επιλογή"
 
 #: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
