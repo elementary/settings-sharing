@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 11:17+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-25 21:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "sharing-extra/el/>\n"
@@ -21,11 +21,11 @@ msgstr ""
 
 #: data/sharing.metainfo.xml.in:10
 msgid "Sharing Settings"
-msgstr ""
+msgstr "Ρυθμίσεις κοινοποίησης"
 
 #: data/sharing.metainfo.xml.in:11
 msgid "Configure file and media sharing"
-msgstr "Ρύθμιση αρχείων και διαμοιρασμού πολυμέσων"
+msgstr "Ρύθμιση κοινοποίησης αρχείων και πολυμέσων"
 
 #: data/sharing.metainfo.xml.in:28
 msgid "elementary, Inc."
@@ -44,4 +44,4 @@ msgstr ""
 
 #: data/sharing.metainfo.xml.in:68
 msgid "Bluetooth sharing options"
-msgstr ""
+msgstr "Επιλογές κοινοποίησης μέσω Bluetooth"
