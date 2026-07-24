@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-sharing\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-01-31 11:17+0000\n"
-"PO-Revision-Date: 2026-07-10 14:00+0000\n"
+"PO-Revision-Date: 2026-07-25 21:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/"
 "sharing/el/>\n"
@@ -26,7 +26,7 @@ msgstr "Κοινή χρήση"
 
 #: src/Plug.vala:18
 msgid "Configure file and media sharing"
-msgstr "Ρύθμιση αρχείων και διαμοιρασμού πολυμέσων"
+msgstr "Ρύθμιση κοινοποίησης αρχείων και πολυμέσων"
 
 #: src/Plug.vala:26
 msgid "Network Is Not Available"
@@ -60,10 +60,8 @@ msgid "Music Folder"
 msgstr "Φάκελος μουσικής"
 
 #: src/Widgets/DLNAPage.vala:23
-#, fuzzy
-#| msgid "Videos"
 msgid "Videos Folder"
-msgstr "Βίντεο"
+msgstr "Φάκελος βίντεο"
 
 #: src/Widgets/DLNAPage.vala:24
 msgid "Pictures Folder"
@@ -102,7 +100,7 @@ msgstr "Επιλογή"
 
 #: src/Widgets/BluetoothPage.vala:22
 msgid "Ask before accepting files:"
-msgstr ""
+msgstr "Ερώτηση πριν από την αποδοχή αρχείων:"
 
 #: src/Widgets/BluetoothPage.vala:33
 msgid "Bluetooth Settings…"
