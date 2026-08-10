@@ -17,7 +17,7 @@ Package: io.elementary.settings.sharing
 Architecture: any
 Depends: io.elementary.bluetooth-daemon,
          rygel,
-         wingpanel-indicator-bluetooth,
+         io.elementary.panel.bluetooth | wingpanel-indicator-bluetooth,
          ${misc:Depends},
          ${shlibs:Depends}
 Enhances: io.elementary.settings
