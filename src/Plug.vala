@@ -64,6 +64,11 @@ public class Sharing.Plug : Switchboard.Plug {
             settings_view.add_child (dlna_page);
             settings_view.add_child (bluetooth_page);
 
+            // Only offered when GNOME Remote Desktop is installed
+            if (Backend.RemoteDesktopManager.is_supported ()) {
+                settings_view.add_child (new Widgets.RemoteDesktopPage ());
+            }
+
             var sidebar = new Switchboard.SettingsSidebar (settings_view) {
                 show_title_buttons = true
             };
@@ -109,6 +114,10 @@ public class Sharing.Plug : Switchboard.Plug {
         search_results.set ("%s → %s".printf (display_name, _("Media Streaming")), "");
         search_results.set ("%s → %s".printf (display_name, _("DLNA and UPnP")), "");
         search_results.set ("%s → %s".printf (display_name, _("Bluetooth")), "");
+        if (Backend.RemoteDesktopManager.is_supported ()) {
+            search_results.set ("%s → %s".printf (display_name, _("Remote Desktop")), "");
+            search_results.set ("%s → %s".printf (display_name, _("RDP")), "");
+        }
         return search_results;
     }
 

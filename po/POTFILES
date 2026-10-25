@@ -1,6 +1,8 @@
 src/Plug.vala
 src/Widgets/DLNAPage.vala
 src/Widgets/BluetoothPage.vala
+src/Widgets/RemoteDesktopPage.vala
 src/Backend/RygelStartupManager.vala
 src/Backend/RygelConfigFile.vala
+src/Backend/RemoteDesktopManager.vala
 src/Backend/SharingDBusInterface.vala
